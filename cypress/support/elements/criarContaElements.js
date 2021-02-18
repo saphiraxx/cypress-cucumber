@@ -8,6 +8,15 @@ class criarConta {
     inserirNome = () => {return 'NomeTeste'}
 
     lastName = () => { return 'input[id="inputLastName"]' }
+
+    inserirSobrenome = () => {return 'SobrenomeTeste'}
+
+    emailAddress = () => { return 'input[id="inputEmail"]' }
+
+    inserirEmail = () => {return 'email@teste.com'}
+
+    //selectDdd = () => { return '.selected-flag"]' }
+
 }
 
 export default criarConta; 
