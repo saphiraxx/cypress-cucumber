@@ -1,20 +1,20 @@
 /* global Given, Then, When */
 
-import CriarConta from '../pageobjects/CriarConta'
+import CriarConta from '../pageobjects/criarConta'
 const criarConta = new CriarConta
 
 Given("acesso o site PHPTRAVELS", () => {
     criarConta.acessarSite();
 })
 
-When("acesso a pagina de login", () => {
-    criarConta.clicarBotaoPaginaLogin();
-})
-
-Then("acesso a pagina de registro", () => {
+When("acesso a página de registro", () => {
     criarConta.clicarBotaoRegister();
 })
 
-And("preencher o formulario de registro",() => {
+Then("realizo o preenchimento do formulário de registro",() => {
     criarConta.preencherFormularioRegistro();
+})
+
+And("salvo o formulário",() => {
+    criarConta.salvarFormulario();
 })

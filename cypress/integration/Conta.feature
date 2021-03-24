@@ -1,8 +1,10 @@
-Feature: Conta PHPTRAVELS
+#language: pt
 
-    Scenario: Criar uma conta no site
-        Given acesso o site PHPTRAVELS
-        When acesso a pagina de login
-        Then acesso a pagina de registro
-        and preencher o formulario de registro
+Funcionalidade: Conta PHPTRAVELS
+
+    Cenário: Criar uma conta no site
+        Dado acesso o site PHPTRAVELS
+        Quando acesso a página de registro
+        Então realizo o preenchimento do formulário de registro
+        E salvo o formulário
         

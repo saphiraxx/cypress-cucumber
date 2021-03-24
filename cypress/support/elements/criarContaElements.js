@@ -1,7 +1,5 @@
 class criarConta {
-    botaoLogin = () => { return 'a[class="lvl-0 sign-in btn btn-md btn-white-outline open"]' }
-
-    botaoRegister = () => { return 'li a[href="/register.php"]' }
+    botaoRegister = () => { return 'a[href="/register.php"]' }
 
     firstName = () => { return 'input[id="inputFirstName"]' }
 
@@ -15,7 +13,7 @@ class criarConta {
 
     inserirEmail = () => {return 'email@teste.com'}
 
-    selectDdd = () => { return '.selected-flag"]' }
+    selectDdd = () => { return '.flag-container' }
 
     selectBrazil = () => {return 'span[class="country-name"]'}
 
@@ -29,11 +27,11 @@ class criarConta {
 
     streetAddress = () => {return '#inputAddress1'}
     
-    inserirEndereco = () => {return 'Endereço 1 teste'}
+    inserirEndereco = () => {return 'Endereco 1 teste'}
 
     streetAddress2 = () => {return '#inputAddress2'}
 
-    inserirEndereco2 = () => {return 'Endereço 2 teste'}
+    inserirEndereco2 = () => {return 'Endereco 2 teste'}
 
     city = () => {return '#inputCity'}
 
@@ -49,11 +47,11 @@ class criarConta {
 
     country = () => {return '#inputCountry'}
 
-    Brazil = () => {return 'option[value="BR"]'}
+    Brazil = () => {return 'BR'}
 
     customField1 = () => {return '#customfield1'}
 
-    Friend = () => {return 'option[value="Friend"]'}
+    Friend = () => {return 'Friend'}
 
     customField2 = () => {return '#customfield2'}
 
@@ -61,13 +59,13 @@ class criarConta {
 
     password = () => {return '#inputNewPassword1'}
 
-    inserirSenha = () => {return 'testesenha'}
+    inserirSenha = () => {return 'Testesenha2021'}
 
     confirmPassword = () => {return '#inputNewPassword2'}
 
-    confirmarSenha = () => {return 'testesenha'}
+    confirmarSenha = () => {return 'Testesenha2021'}
 
-    reCaptcha = () => {return '#recaptcha-anchor-label'}
+    reCaptcha = () => {return '#google-recaptcha-domainchecker'}
 
     register = () => {return 'input[value="Register"]'}
 
